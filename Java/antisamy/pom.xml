@@ -26,7 +26,7 @@
         <dependency>
           <groupId>org.apache.httpcomponents</groupId>
           <artifactId>httpclient</artifactId>
-          <version>4.2.5</version>
+          <version>4.5.13</version>
           <scope>compile</scope>
          </dependency>        
 
@@ -49,7 +49,7 @@
                             <mainClass>org.owasp.validator.html.AntiSamy</mainClass>
                             <packageName>org.owasp.validator.html</packageName>
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-                            <classpathPrefix />
+                            <classpathPrefix/>
                         </manifest>
                     </archive>
                 </configuration>
